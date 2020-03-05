@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="@/assets/logo.png">
+    <HelloWorld msg="Welcome to page AAAAAAAAAA"/>
+    <button @click="$router.push({name: 'About'})">go to About</button>
   </div>
 </template>
 
