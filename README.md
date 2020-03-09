@@ -1,23 +1,49 @@
-# my-app
+# multi-page
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+npm build
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+npm lint
+```
+
+```shell
+.
+├── App.vue
+├── assets
+│   └── logo.png
+├── components
+│   └── HelloWorld.vue
+└── pages
+    ├── pageA
+    │   ├── index.html
+    │   ├── main.js
+    │   ├── router.js
+    │   ├── store.js
+    │   └── views
+    │       ├── About.vue
+    │       └── Home.vue
+    └── pageB
+        ├── index.html
+        ├── main.js
+        ├── router.js
+        ├── store.js
+        └── views
+            ├── About.vue
+            └── Home.vue
 ```
 
 ### Customize configuration
